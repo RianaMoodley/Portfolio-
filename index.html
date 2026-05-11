@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Riana Moodley — Electrical Engineer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
       --ink:     #0e0f0c;
@@ -344,6 +344,10 @@
       border-radius: 2px;
     }
     .proj-arrow { font-size: 1.3rem; color: var(--fog-3); transition: transform 0.25s, color 0.25s; padding-top: 0.3rem; }
+    .proj-link {
+      text-decoration: none;
+      color: inherit;
+    }
 
     /* CONTACT */
     #contact { background: var(--ink-2); }
@@ -476,8 +480,8 @@
           <div class="about-stat"><div class="stat-num">UNIZULU</div><div class="stat-lbl">South Africa</div></div>
         </div>
         <div class="about-body">
-          <p>I'm <strong>Riana Moodley</strong>, a final-year Electrical Engineering student at the <strong>University of Zululand</strong>, Richards Bay. I'm passionate about building systems that genuinely make a difference from smart city infrastructure to industrial automation.</p>
-          <p>My work spans <strong>power systems, PLC-based automation, telecommunications,</strong> and <strong>MATLAB simulation</strong>. I love bridging the gap between hardware and software to create robust, real-world engineering solutions.</p>
+          <p>I'm <strong>Riana Moodley</strong>, a final-year Electrical Engineering student at the <strong>University of Zululand</strong>, Richards Bay. I'm passionate about building systems that solve real-world problems through innovative engineering. My approach balances rigorous technical theory with practical, hands-on implementation.</p>
+          <p>My work spans <strong>power systems, PLC-based automation, telecommunications,</strong> and <strong>MATLAB simulation</strong>. I love bridging the gap between hardware and software, translating complex physical systems into actionable digital solutions.</p>
           <p>I'm actively seeking opportunities to grow whether that's internships, research collaborations, or international exchanges. Always eager to keep learning.</p>
 
           <div class="mini-label">Interests</div>
@@ -552,48 +556,54 @@
         <h2 class="section-heading">Projects I'm<br><em>proud of</em></h2>
       </div>
       <div class="proj-list reveal">
-        <div class="proj-item">
-          <div class="proj-num">01</div>
-          <div>
-            <div class="proj-title">Smart Traffic Lighting System</div>
-            <div class="proj-desc">Designed an intelligent traffic management system that dynamically adjusts signal timing based on real-time traffic density. Sensor inputs and automated control logic reduce congestion and improve intersection flow efficiency.</div>
-            <div class="proj-tags">
-              <span class="proj-tag">Embedded Systems</span>
-              <span class="proj-tag">PLC</span>
-              <span class="proj-tag">Automation</span>
-              <span class="proj-tag">Sensors</span>
+        <a href="Traffic_Light.pdf" target="_blank" class="proj-link">
+          <div class="proj-item">
+            <div class="proj-num">01</div>
+            <div>
+              <div class="proj-title">Smart Traffic Lighting System</div>
+              <div class="proj-desc">Designed an intelligent traffic management system that dynamically adjusts signal timing based on real-time traffic density. Sensor inputs and automated control optimize vehicle flow and reduce congestion.</div>
+              <div class="proj-tags">
+                <span class="proj-tag">Embedded Systems</span>
+                <span class="proj-tag">PLC</span>
+                <span class="proj-tag">Automation</span>
+                <span class="proj-tag">Sensors</span>
+              </div>
             </div>
+            <div class="proj-arrow">↗</div>
           </div>
-          <div class="proj-arrow">↗</div>
-        </div>
-        <div class="proj-item">
-          <div class="proj-num">02</div>
-          <div>
-            <div class="proj-title">Swing Power Generator</div>
-            <div class="proj-desc">Engineered a kinetic energy harvesting system that converts the mechanical motion of a swing into usable electrical energy. Explored energy conversion principles, generator design, and power conditioning circuits for stable output.</div>
-            <div class="proj-tags">
-              <span class="proj-tag">Power Systems</span>
-              <span class="proj-tag">Energy Harvesting</span>
-              <span class="proj-tag">Electrical Machines</span>
-              <span class="proj-tag">Circuit Design</span>
+        </a>
+        <a href="Swing_Power_Generator.pdf" target="_blank" class="proj-link">
+          <div class="proj-item">
+            <div class="proj-num">02</div>
+            <div>
+              <div class="proj-title">Swing Power Generator</div>
+              <div class="proj-desc">Engineered a kinetic energy harvesting system that converts the mechanical motion of a swing into usable electrical energy. Explored energy conversion principles and renewable power generation concepts.</div>
+              <div class="proj-tags">
+                <span class="proj-tag">Power Systems</span>
+                <span class="proj-tag">Energy Harvesting</span>
+                <span class="proj-tag">Electrical Machines</span>
+                <span class="proj-tag">Circuit Design</span>
+              </div>
             </div>
+            <div class="proj-arrow">↗</div>
           </div>
-          <div class="proj-arrow">↗</div>
-        </div>
-        <div class="proj-item">
-          <div class="proj-num">03</div>
-          <div>
-            <div class="proj-title">Fertilizer Batch Mixing Automation</div>
-            <div class="proj-desc">Developed a fully automated batch mixing system for fertilizer production using PLC-based control. Precisely manages ingredient ratios, mixing sequences, and timing with industrial-grade logic for multi-stage process control.</div>
-            <div class="proj-tags">
-              <span class="proj-tag">PLC Programming</span>
-              <span class="proj-tag">Industrial Automation</span>
-              <span class="proj-tag">Process Control</span>
-              <span class="proj-tag">SCADA</span>
+        </a>
+        <a href="PLC.pdf" target="_blank" class="proj-link">
+          <div class="proj-item">
+            <div class="proj-num">03</div>
+            <div>
+              <div class="proj-title">Fertilizer Batch Mixing Automation</div>
+              <div class="proj-desc">Developed a fully automated batch mixing system for fertilizer production using PLC-based control. Precisely manages ingredient ratios, mixing sequences, and timing to ensure product consistency and quality.</div>
+              <div class="proj-tags">
+                <span class="proj-tag">PLC Programming</span>
+                <span class="proj-tag">Industrial Automation</span>
+                <span class="proj-tag">Process Control</span>
+                <span class="proj-tag">SCADA</span>
+              </div>
             </div>
+            <div class="proj-arrow">↗</div>
           </div>
-          <div class="proj-arrow">↗</div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
